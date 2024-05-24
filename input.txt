@@ -1,0 +1,629 @@
+{
+    "data_steps": [
+        {
+            "method": "URL",
+            "timestamp": 1716520713,
+            "tabId": 1148338846,
+            "data": {
+                "href": "https://ttm11d0c1a4d1772ccc9aos.axcloud.dynamics.com/?cmp=usmf&mi=DefaultDashboard"
+            },
+            "type": 4
+        },
+        {
+            "method": "Go To FinOps Module",
+            "value": "Accounts payable > Purchase orders > All purchase orders"
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 3690,
+                "x": 204,
+                "y": 83
+            },
+            "timestamp": 1716520727.56,
+            "v": "v1",
+            "delay": -300441,
+            "target": {},
+            "fieldName": "New menu",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"New\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "SystemDefinedNewButton",
+            "role": "CommandButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='SystemDefinedNewButton']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 5,
+                "text": "US-",
+                "isChecked": false,
+                "id": 8859
+            },
+            "timestamp": 1716520739.617,
+            "v": "v1",
+            "delay": -288384,
+            "target": {},
+            "fieldName": "Vendor account",
+            "method": "INPUT",
+            "xpath": "(//*[normalize-space(@id) = \"PurchCreateOrder_4_PurchTable_OrderAccount_label\"])[0]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchCreateOrder",
+                "control": null
+            },
+            "controlName": "PurchTable_OrderAccount",
+            "role": "Input",
+            "focus": ".field",
+            "locator": "//*[@data-dyn-controlname='PurchTable_OrderAccount']//*[.field]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 10559,
+                "x": 300,
+                "y": 328
+            },
+            "timestamp": 1716520741.551,
+            "v": "v1",
+            "delay": -286450,
+            "target": {},
+            "fieldName": "Vendor account row",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(@aria-label) = \"Vendor account\"])[34]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "VendTableLookup",
+                "control": null
+            },
+            "controlName": "VendTable_AccountNum",
+            "role": "",
+            "focus": "input",
+            "locator": "//*[@data-dyn-controlname='VendTable_AccountNum']//*[input]",
+            "isModule": false,
+            "linkLast": true
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 9410,
+                "x": 2033,
+                "y": 1259
+            },
+            "timestamp": 1716520746.397,
+            "v": "v1",
+            "delay": -281604,
+            "target": {},
+            "fieldName": "OK",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"OK\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchCreateOrder",
+                "control": null
+            },
+            "controlName": "OK",
+            "role": "CommandButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='OK']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 5,
+                "text": "A0001",
+                "isChecked": false,
+                "id": 12248
+            },
+            "timestamp": 1716520752.86,
+            "v": "v1",
+            "delay": -275141,
+            "target": {},
+            "fieldName": "Item number row",
+            "method": "INPUT",
+            "xpath": "(//*[normalize-space(@aria-label) = \"Item number\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "PurchLine_ItemId",
+            "role": "",
+            "focus": "input",
+            "locator": "//*[@data-dyn-controlname='PurchLine_ItemId']//*[input]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 5,
+                "text": "11",
+                "isChecked": false,
+                "id": 12292
+            },
+            "timestamp": 1716520757.515,
+            "v": "v1",
+            "delay": -270486,
+            "target": {},
+            "fieldName": "Warehouse row",
+            "method": "INPUT",
+            "xpath": "(//*[normalize-space(@aria-label) = \"Warehouse\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "InventoryDimensionsGrid_InventLocationId",
+            "role": "",
+            "focus": "input",
+            "locator": "//*[@data-dyn-controlname='InventoryDimensionsGrid_InventLocationId']//*[input]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 8742,
+                "x": 159,
+                "y": 75
+            },
+            "timestamp": 1716520760.126,
+            "v": "v1",
+            "delay": -267875,
+            "target": {},
+            "fieldName": "Save menu",
+            "method": "CLICK",
+            "xpath": "//*[contains(@class, 'button-label')][text()='Save']",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "SystemDefinedSaveButton",
+            "role": "CommandButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='SystemDefinedSaveButton']//*[null]",
+            "isModule": false,
+            "linkLast": true
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 3725,
+                "x": 503,
+                "y": 73
+            },
+            "timestamp": 1716520771.612,
+            "v": "v1",
+            "delay": -256389,
+            "target": {},
+            "fieldName": "Purchase menu",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"Purchase\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "Purchase",
+            "role": "AppBarTab",
+            "focus": ".appBarTab-header",
+            "locator": "//*[@data-dyn-controlname='Purchase']//*[.appBarTab-header]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 2,
+                "id": 13488,
+                "x": 1044,
+                "y": 154
+            },
+            "timestamp": 1716520776.293,
+            "v": "v1",
+            "delay": -251708,
+            "target": {},
+            "fieldName": "Confirm menu",
+            "method": "CLICK",
+            "xpath": "//*[contains(@class, 'button-label')][text()='Confirm']",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "buttonConfirm",
+            "role": "MenuItemButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='buttonConfirm']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 3751,
+                "x": 657,
+                "y": 108
+            },
+            "timestamp": 1716520784.541,
+            "v": "v1",
+            "delay": -243460,
+            "target": {},
+            "fieldName": "Receive menu",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"Receive\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "Receive",
+            "role": "AppBarTab",
+            "focus": ".appBarTab-header",
+            "locator": "//*[@data-dyn-controlname='Receive']//*[.appBarTab-header]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 14787,
+                "x": 1962,
+                "y": 1258
+            },
+            "timestamp": 1716520797.56,
+            "v": "v1",
+            "delay": -230441,
+            "target": {},
+            "fieldName": "OK",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"OK\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchEditLines",
+                "control": null
+            },
+            "controlName": "OK",
+            "role": "CommandButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='OK']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 3776,
+                "x": 739,
+                "y": 116
+            },
+            "timestamp": 1716520834.353,
+            "v": "v1",
+            "delay": -193648,
+            "target": {},
+            "fieldName": "Invoice menu",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"Invoice\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "Invoice",
+            "role": "AppBarTab",
+            "focus": ".appBarTab-header",
+            "locator": "//*[@data-dyn-controlname='Invoice']//*[.appBarTab-header]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 14972,
+                "x": 115,
+                "y": 186
+            },
+            "timestamp": 1716520836.276,
+            "v": "v1",
+            "delay": -191725,
+            "target": {},
+            "fieldName": "Invoice menu",
+            "method": "CLICK",
+            "xpath": "//*[contains(@class, 'button-label')][text()='Invoice']",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "buttonUpdateInvoice",
+            "role": "MenuItemButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='buttonUpdateInvoice']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 5,
+                "text": "ttminv52",
+                "isChecked": false,
+                "id": 15596
+            },
+            "timestamp": 1716520865.026,
+            "v": "v1",
+            "delay": -162975,
+            "target": {},
+            "fieldName": "Number",
+            "method": "INPUT",
+            "xpath": "(//*[normalize-space(@id) = \"VendEditInvoice_10_PurchParmTable_Num_label\"])[0]",
+            "title": "Vendor invoice -- Finance and Operations Preview",
+            "formName": {
+                "form": "VendEditInvoice",
+                "control": null
+            },
+            "controlName": "PurchParmTable_Num",
+            "role": "Input",
+            "focus": ".field",
+            "locator": "//*[@data-dyn-controlname='PurchParmTable_Num']//*[.field]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 5,
+                "text": "t",
+                "isChecked": false,
+                "id": 15744
+            },
+            "timestamp": 1716520867.867,
+            "v": "v1",
+            "delay": -160134,
+            "target": {},
+            "fieldName": "Invoice date",
+            "method": "INPUT",
+            "xpath": "(//*[normalize-space(@id) = \"VendEditInvoice_10_PurchParmTable_DocumentDate_label\"])[0]",
+            "title": "Vendor invoice -- Finance and Operations Preview",
+            "formName": {
+                "form": "VendEditInvoice",
+                "control": null
+            },
+            "controlName": "PurchParmTable_DocumentDate",
+            "role": "Date",
+            "focus": ".field",
+            "locator": "//*[@data-dyn-controlname='PurchParmTable_DocumentDate']//*[.field]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 15184,
+                "x": 584,
+                "y": 89
+            },
+            "timestamp": 1716520870.808,
+            "v": "v1",
+            "delay": -157193,
+            "target": {},
+            "fieldName": "Update match status menu",
+            "method": "CLICK",
+            "xpath": "//*[contains(@class, 'button-label')][text()='Update match status']",
+            "title": "Vendor invoice -- Finance and Operations Preview",
+            "formName": {
+                "form": "VendEditInvoice",
+                "control": null
+            },
+            "controlName": "UpdateMatchStatus",
+            "role": "Button",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='UpdateMatchStatus']//*[null]",
+            "isModule": false,
+            "linkLast": true
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 15908,
+                "x": 1780,
+                "y": 574
+            },
+            "timestamp": 1716520879.904,
+            "v": "v1",
+            "delay": 160236,
+            "target": {},
+            "fieldName": "Match status",
+            "method": "VERIFY",
+            "xpath": "[]",
+            "typeVerify": "Contains",
+            "fieldValue": "Passed"
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 15210,
+                "x": 752,
+                "y": 75
+            },
+            "timestamp": 1716520899.669,
+            "v": "v1",
+            "delay": -128332,
+            "target": {},
+            "fieldName": "Post menu",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"Post\"])[1]",
+            "title": "Vendor invoice -- Finance and Operations Preview",
+            "formName": {
+                "form": "VendEditInvoice",
+                "control": null
+            },
+            "controlName": "OK",
+            "role": "Button",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='OK']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 2,
+                "id": 11435,
+                "x": 155,
+                "y": 384
+            },
+            "timestamp": 1716520959.953,
+            "v": "v1",
+            "delay": -68048,
+            "target": {},
+            "fieldName": "Header",
+            "method": "CLICK",
+            "xpath": "(//*[normalize-space(text()) = \"Header\"])[1]",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "HeaderView_header",
+            "role": "",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='HeaderView_header']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 17075,
+                "x": 705,
+                "y": 544
+            },
+            "timestamp": 1716520979.065,
+            "v": "v1",
+            "delay": 259397,
+            "target": {},
+            "fieldName": "Purchase order status",
+            "method": "VERIFY",
+            "xpath": "[]",
+            "typeVerify": "Contains",
+            "fieldValue": "Invoiced"
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 17097,
+                "x": 734,
+                "y": 602
+            },
+            "timestamp": 1716521003.552,
+            "v": "v1",
+            "delay": 283884,
+            "target": {},
+            "fieldName": "Document status",
+            "method": "VERIFY",
+            "xpath": "[]",
+            "typeVerify": "Contains",
+            "fieldValue": "Tax Invoice"
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 8742,
+                "x": 166,
+                "y": 118
+            },
+            "timestamp": 1716521022.902,
+            "v": "v1",
+            "delay": -5099,
+            "target": {},
+            "fieldName": "Save menu",
+            "method": "CLICK",
+            "xpath": "//*[contains(@class, 'button-label')][text()='Save']",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "SystemDefinedSaveButton",
+            "role": "CommandButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='SystemDefinedSaveButton']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        },
+        {
+            "type": 3,
+            "data": {
+                "source": 2,
+                "type": 1,
+                "id": 3667,
+                "x": 85,
+                "y": 119
+            },
+            "timestamp": 1716521028.025,
+            "v": "v1",
+            "delay": 24,
+            "target": {},
+            "fieldName": "Back menu",
+            "method": "CLICK",
+            "xpath": "//*[contains(@class, 'button-label')][text()='Back']",
+            "title": "All purchase orders -- Finance and Operations Preview",
+            "formName": {
+                "form": "PurchTable",
+                "control": null
+            },
+            "controlName": "SystemDefinedCloseButton",
+            "role": "CommandButton",
+            "focus": "",
+            "locator": "//*[@data-dyn-controlname='SystemDefinedCloseButton']//*[null]",
+            "isModule": false,
+            "linkLast": false
+        }
+    ]
+}
